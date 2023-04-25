@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <title>Ink.</title>
+</head>
+
+<body>
+  <header id="logo">
+    <nav>
+      <a href="tel:79172415328">+7 (917) 241-53-28</a>
+      <a class="logo" href="#"><img src="./img/Ink_logo.svg" alt=""></a>
+      <button class="open"><i class="fa-solid fa-bars fa-xl"></i></button>
+      <div class="navigation">
+        <ul class="nav-content">
+          <li><a href="#About">О нас</a></li>
+          <li><a href="#Portfolio">Портфолио</a></li>
+          <li><a href="#service">Услуги</a></li>
+          <li> <a href="#FAQ">FAQ</a><i class="fa fa-angle-down fa-sm"></i>
+            <ul class="submenu">
+              <li><a href="#q1">Вопрос 1</a></li>
+              <li><a href="#questions">Задать вопрос</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="right">
+          <div class="mesto almet">
+            <h6>Альметьевск</h6>
+            <p>ул. Мира 10</p>
+          </div>
+          <div class="mesto moscow">
+            <h6>Москва</h6>
+            <p>1-й Красногвардейский пр., 21, стр. 1</p>
+          </div>
+          <button class="project">Хочу проект</button>
+        </div>
+      </div>
+    </nav>
+    <div class="swiper mySwiper element-animation">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <p>Terra</p>
+        </div>
+        <div class="swiper-slide">
+          <p>Tatlin</p>
+        </div>
+        <div class="swiper-slide">
+          <p>Delfin</p>
+        </div>
+        <div class="swiper-slide">
+          <p>Riviera</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </header>
+  <section id="About" class="About-Us">
+    <h2 class="element-animation">Мы команда архитекторов, дизайнеров и строителей</h2>
+    <p class="element-animation">Проектируем, строим и полностью комплектуем объекты</p>
+    <div class="img-content element-animation"><img src="./img/About-Us.jpg" alt="" /></div>
+    <div class="text-content">
+      <h4 class="element-animation">
+        Мы — однозначно та компания, которая полностью реализует ваш интерьер
+      </h4>
+      <p class="element-animation">
+        В итоге вы получите квартиру, в которую можно сразу заехать и жить.
+        Останется только перевести ваши вещи, питомца и устроить новоселье
+      </p>
+    </div>
+  </section>
+  <section id="Portfolio" class="Portfolio_section">
+    <h2 class="element-animation">Наши работы</h2>
+    <ul class="list element-animation">
+      <li data-color=".featured">2021</li>
+      <li data-color=".Arrivals">2022</li>
+      <li data-color=".Special">2023</li>
+      <li data-color=".All">Смотреть всё</li>
+    </ul>
+    <div class="cards-content">
+      <div id="Terra" class="card element-animation All Special">
+        <div class="text-content">
+          <h5>Terra</h5>
+          <div class="info">
+            <p><i class="fa-solid fa-location-pin"></i> Санкт-Петербург</p>
+            <p><i class="fa-regular fa-calendar"></i> 2023</p>
+          </div>
+        </div>
+        <div class="img-content">
+          <img src="img/portfolio_1.jpg" alt="" />
+        </div>
+      </div>
+      <div id="Tatlin" class="card element-animation All Arrivals">
+        <div class="text-content element-animation">
+          <h5>Tatlin</h5>
+          <div class="info">
+            <p><i class="fa-solid fa-location-pin"></i> Москва</p>
+            <p><i class="fa-regular fa-calendar"></i> 2022</p>
+          </div>
+        </div>
+        <div class="img-content">
+          <img src="img/portfolio_2.jpg" alt="" />
+        </div>
+      </div>
+      <div id="Delfin" class="card element-animation All Arrivals">
+        <div class="text-content element-animation">
+          <h5>Delfin</h5>
+          <div class="info">
+            <p><i class="fa-solid fa-location-pin"></i> Сочи</p>
+            <p><i class="fa-regular fa-calendar"></i> 2022</p>
+          </div>
+        </div>
+        <div class="img-content">
+          <img src="img/portfolio_3.jpg" alt="" />
+        </div>
+      </div>
+      <div id="Riviera" class="card element-animation All featured">
+        <div class="text-content element-animation">
+          <h5>Riviera</h5>
+          <div class="info">
+            <p><i class="fa-solid fa-location-pin"></i> Казань</p>
+            <p><i class="fa-regular fa-calendar"></i> 2021</p>
+          </div>
+        </div>
+        <div class="img-content">
+          <img src="img/portfolio_4.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="service" class="services">
+    <h2 class="element-animation">Услуги</h2>
+    <div class="services__cards">
+      <div class="services__card element-animation">
+        <div class="services__card__header">
+          <h3>Дизайн-проект</h3>
+          <p>квартиры</p>
+        </div>
+        <div class="services__card__price">
+          <p>7 900 — ₽/м²</p>
+          <button class="project">Хочу проект</button>
+        </div>
+      </div>
+      <div class="services__card element-animation">
+        <div class="services__card__header">
+          <h3>Архитектурный проект</h3>
+          <p>дома</p>
+        </div>
+        <div class="services__card__price">
+          <p>4 900 — ₽/м²</p>
+          <button class="project">Хочу проект</button>
+        </div>
+      </div>
+      <div class="services__card element-animation">
+        <div class="services__card__header">
+          <h3>Нет подходящей услуги</h3>
+          <p>Напишите нам, обсудим вашу задачу</p>
+        </div>
+        <div class="services__card__price">
+          <button class="project">Напишите нам</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="FAQ" class="questions">
+    <h2 class="element-animation element-animation">Ответы на часто задаваемые вопросы</h2>
+    <div id="q1" class="question_content-1">
+      <div class="element-animation question_1">
+        <h3 class="element-animation">Есть ли у вас проверенная бригада строителей?</h3>
+        <button class="question-exit"><i class="fa-solid fa-xmark fa-xl"></i></button>
+      </div>
+      <hr>
+      <div class="element-animation question-text">
+        <p>В Альметьевске и Москве у нас своя команда строителей. Мы работаем в одном офисе и это даёт нам много плюсов:
+        </p><br>
+        <p>— Мы подключаем руководителей стройки еще на этапе проектирования, чтобы понять, все ли задумки возможно
+          реализовать. Это значит, что заложенные проектом решения проработаны строителями еще до начала их работ и в
+          процессе стройки не придется ничего изобретать. <br>
+          — Также, в ходе реализации, мы оперативно решаем возникающие вопросы, не прибегая к долгим перепискам и
+          встречам на объектах.</p><br>
+        <p>В других крупных городах мы реализуем с нашими партнёрами, с которыми уже есть положительный опыт реализации.
+        </p>
+      </div>
+    </div>
+    <div id="questions" class="question_content-other">
+      <div class="question-ico element-animation">
+        <p>?</p>
+      </div>
+      <h3 class="element-animation">Остались вопросы?</h3>
+      <button onclick="telegram()" class="element-animation">Задать вопрос</button>
+    </div>
+  </section>
+  <footer>
+    <a class="element-animation logotype" href="#logo">Logo</a>
+
+    <ul class="nav-content">
+      <li class="element-animation"><a href="#About">О нас</a></li>
+      <li class="element-animation"><a href="#Portfolio">Портфолио</a></li>
+      <li class="element-animation"><a href="#service">Услуги</a></li>
+      <li class="element-animation"> <a href="#FAQ">FAQ</a><i class="fa fa-angle-down fa-sm"></i></li>
+    </ul>
+
+    <div class="element-animation mesto almet">
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A7280080e225b6d31eaea00b62314b0f9459e5d7c176f2a4085fca791c54238c7&amp;source=constructor"
+        ></iframe>
+      <h6>Альметьевск</h6>
+      <p>ул. Мира 10</p>
+    </div>
+    <div class="element-animation mesto moscow">
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a0b57d3773c037f8d63e7811647206a643db382dcd3717de3fe9f212b9a34b2&amp;source=constructor"
+        ></iframe>
+      <h6>Москва</h6>
+      <p>1-й Красногвардейский пр., 21, стр. 1</p>
+    </div>
+  </footer>
+
+
+
+
+
+  <div class="modal-terra modal">
+    <button class="modal-exit"><i class="fa-solid fa-xmark fa-2xl"></i></button>
+    <div class="modal-content">
+      <div class="img-content element-animation">
+        <img src="./img/portfolio_1.jpg" alt="" />
+      </div>
+      <div class="text-content element-animation">
+        <div class="text-content-info">
+          <h1>Terra</h1>
+          <div class="info">
+            <p><i class="fa-solid fa-location-pin"></i> Санкт-Петербург</p>
+            <p><i class="fa-regular fa-calendar"></i> 2023</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-content">
+        <div class="tall element-animation"><img src="./img/terra/terra-grid-1.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/terra/terra-grid-2.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/terra/terra-grid-3.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/terra/terra-grid-4.jpg" alt="" /></div>
+        <div class="tall element-animation"><img src="./img/terra/terra-grid-5.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/terra/terra-grid-6.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/terra/terra-grid-7.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/terra/terra-grid-8.jpg" alt="" /></div>
+        <div class="tall element-animation"><img src="./img/terra/terra-grid-9.jpg" alt="" /></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-tatlin modal">
+    <button class="modal-exit"><i class="fa-solid fa-xmark fa-2xl"></i></button>
+    <div class="modal-content">
+      <div class="img-content element-animation">
+        <img src="./img/portfolio_2.jpg" alt="" />
+      </div>
+      <div class="text-content element-animation">
+        <div class="text-content-info element-animation">
+          <h1>Tatlin</h1>
+          <div class="info">
+            <p><i class="fa-solid fa-location-pin"></i> Москва</p>
+            <p><i class="fa-regular fa-calendar"></i> 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-content">
+        <div class="element-animation tall"><img src="./img/tatlin/tatlin-1.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/tatlin/tatlin-2.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/tatlin/tatlin-3.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/tatlin/tatlin-4.jpg" alt="" /></div>
+        <div class="element-animation tall"><img src="./img/tatlin/tatlin-5.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/tatlin/tatlin-6.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/tatlin/tatlin-7.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/tatlin/tatlin-8.jpg" alt="" /></div>
+        <div class="tall element-animation"><img src="./img/tatlin/tatlin-9.jpg" alt="" /></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-delfin modal">
+    <button class="modal-exit"><i class="fa-solid fa-xmark fa-2xl"></i></button>
+    <div class="modal-content">
+      <div class="img-content element-animation">
+        <img src="./img/portfolio_3.jpg" alt="" />
+      </div>
+      <div class="text-content element-animation">
+        <div class="text-content-info element-animation">
+          <h1>Delfin</h1>
+          <div class="info">
+            <p><i class="fa-solid fa-location-pin"></i> Сочи</p>
+            <p><i class="fa-regular fa-calendar"></i> 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-content">
+        <div class="element-animation tall"><img src="./img/dellfin/delfin.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/dellfin/delfin-1.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/dellfin/delfin-2.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/dellfin/delfin-3.jpg" alt="" /></div>
+        <div class="element-animation tall"><img src="./img/dellfin/delfin-4.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/dellfin/delfin-5.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/dellfin/delfin-6.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/dellfin/delfin-7.jpg" alt="" /></div>
+        <div class="tall element-animation"><img src="./img/dellfin/delfin-9.jpg" alt="" /></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-riviera modal">
+    <button class="modal-exit"><i class="fa-solid fa-xmark fa-2xl"></i></button>
+    <div class="modal-content">
+      <div class="img-content element-animation">
+        <img src="./img/portfolio_3.jpg" alt="" />
+      </div>
+      <div class="text-content element-animation">
+        <div class="text-content-info element-animation">
+          <h1>Riviera</h1>
+          <div class="info">
+            <p><i class="fa-solid fa-location-pin"></i> Казань</p>
+            <p><i class="fa-regular fa-calendar"></i> 2021</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-content">
+        <div class="element-animation tall"><img src="./img/riviera/riviera.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/riviera/riviera-1.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/riviera/riviera-2.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/riviera/riviera-3.jpg" alt="" /></div>
+        <div class="element-animation tall"><img src="./img/riviera/riviera-4.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/riviera/riviera-5.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/riviera/riviera-6.jpg" alt="" /></div>
+        <div class="element-animation"><img src="./img/riviera/riviera-7.jpg" alt="" /></div>
+        <div class="tall element-animation"><img src="./img/riviera/riviera-8.jpg" alt="" /></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-project">
+    <div class="modal-project-content">
+      <button class="close ico"><i class="fa-solid fa-2xl fa-xmark"></i></button>
+      <h3>Оставьте телефон</h3>
+      <input class="tel" type="tel" placeholder="+7" pattern="2-[0-9]{3}-[0-9]{3}">
+      <button class="close" type="submit">Отправить</button>
+
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/27dbbcd778.js" crossorigin="anonymous"></script>
+  <script src="swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
