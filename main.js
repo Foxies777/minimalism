@@ -55,10 +55,12 @@ window.addEventListener('keydown', e => {
 
 document.querySelector('.dark').addEventListener('click', () => {
   document.querySelector('body').classList.add('active')
+  document.querySelector(".fa-bars").classList.remove("fa-xmark");
   menu.classList.remove('active')
 })
 document.querySelector('.white').addEventListener('click', () => {
   document.querySelector('body').classList.remove('active')
+  document.querySelector(".fa-bars").classList.remove("fa-xmark");
   menu.classList.remove('active')
 })
 
