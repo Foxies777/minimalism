@@ -26,7 +26,7 @@ $text: #222;
 }
 
 * {
-  color: #222;
+  
   margin: 0;
   padding: 0;
   font-family: $Montserrat;
@@ -127,6 +127,49 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background: #fff;
   width: 3px;
+}
+body{
+  color: $text;
+  background: #fff;
+}
+body.active{
+  background-color: $text;
+  & > *{
+    color: #fff !important;
+    background-color: $text !important;
+  }
+  & > .modal .modal-content .text-content .text-content-info{
+    background-color: transparent;
+  }
+  & > .Portfolio_section .cards-content .card{
+    -webkit-box-shadow: 0px 8px 53px 8px rgba(204, 204, 204, 0.3);
+      -moz-box-shadow: 0px 8px 53px 8px rgba(204, 204, 204, 0.3);
+      box-shadow: 0px 8px 53px 8px rgba(204, 204, 204, 0.3);
+  }
+  & > .services .services__card{
+    border: 1px solid #fff
+  }
+  & > .services .services__card .project{
+    border: 1px solid #fff;
+  }
+  & > .questions button{
+    border: 1px solid #fff;
+  }
+  nav .navigation .nav-content li a{
+    color: #fff;
+  }
+  .question-exit .fa-solid{
+    color: #fff;
+  }
+  .modal-exit .fa-solid{
+    color: #fff;
+  }
+  .theme button{
+      border: 0;
+      outline: none;
+      background-color: transparent !important;
+      color:#fff !important;
+    }
 }
 
 .element-animation {
@@ -313,6 +356,19 @@ nav {
     padding: 4% 5%;
     height: 50vh;
     visibility: visible;
+  }
+}
+.theme{
+  margin-top: 2%;
+  display: flex;
+  gap: 4%;
+  button{
+    border: 0;
+    outline: none;
+    background-color: transparent !important;
+    color:#222 !important;
+
+    
   }
 }
 

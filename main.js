@@ -15,6 +15,9 @@ let swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+
+
 //плавный скролл при нажатии на ссылку
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -48,6 +51,16 @@ window.addEventListener('keydown', e => {
     menu.classList.remove('active')
   }
 })
+// тема 
+
+document.querySelector('.dark').addEventListener('click', () => {
+  document.querySelector('body').classList.add('active')
+  menu.classList.remove('active')
+})
+document.querySelector('.white').addEventListener('click', () => {
+  document.querySelector('body').classList.remove('active')
+  menu.classList.remove('active')
+})
 
 //выпадающее меню
 
@@ -58,6 +71,8 @@ faq.addEventListener("click", () => {
   submenu.classList.toggle("open");
   faq.classList.toggle("active");
 });
+
+
 
 //кнопки
 
