@@ -153,6 +153,9 @@ body.active .theme button {
   background-color: transparent !important;
   color: #fff !important;
 }
+body.active footer .nav-content {
+  list-style: none;
+}
 
 .element-animation {
   opacity: 0;

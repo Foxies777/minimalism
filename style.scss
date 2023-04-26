@@ -26,7 +26,7 @@ $text: #222;
 }
 
 * {
-  
+
   margin: 0;
   padding: 0;
   font-family: $Montserrat;
@@ -128,48 +128,63 @@ body::-webkit-scrollbar-thumb {
   background: #fff;
   width: 3px;
 }
-body{
+
+body {
   color: $text;
   background: #fff;
 }
-body.active{
+
+body.active {
   background-color: $text;
-  & > *{
+
+  &>* {
     color: #fff !important;
     background-color: $text !important;
   }
-  & > .modal .modal-content .text-content .text-content-info{
+
+  &>.modal .modal-content .text-content .text-content-info {
     background-color: transparent;
   }
-  & > .Portfolio_section .cards-content .card{
+
+  &>.Portfolio_section .cards-content .card {
     -webkit-box-shadow: 0px 8px 53px 8px rgba(204, 204, 204, 0.3);
-      -moz-box-shadow: 0px 8px 53px 8px rgba(204, 204, 204, 0.3);
-      box-shadow: 0px 8px 53px 8px rgba(204, 204, 204, 0.3);
+    -moz-box-shadow: 0px 8px 53px 8px rgba(204, 204, 204, 0.3);
+    box-shadow: 0px 8px 53px 8px rgba(204, 204, 204, 0.3);
   }
-  & > .services .services__card{
+
+  &>.services .services__card {
     border: 1px solid #fff
   }
-  & > .services .services__card .project{
+
+  &>.services .services__card .project {
     border: 1px solid #fff;
   }
-  & > .questions button{
+
+  &>.questions button {
     border: 1px solid #fff;
   }
-  nav .navigation .nav-content li a{
+
+  nav .navigation .nav-content li a {
     color: #fff;
   }
-  .question-exit .fa-solid{
+
+  .question-exit .fa-solid {
     color: #fff;
   }
-  .modal-exit .fa-solid{
+
+  .modal-exit .fa-solid {
     color: #fff;
   }
-  .theme button{
-      border: 0;
-      outline: none;
-      background-color: transparent !important;
-      color:#fff !important;
-    }
+
+  .theme button {
+    border: 0;
+    outline: none;
+    background-color: transparent !important;
+    color: #fff !important;
+  }
+  footer .nav-content{
+    list-style: none;
+  }
 }
 
 .element-animation {
@@ -358,17 +373,19 @@ nav {
     visibility: visible;
   }
 }
-.theme{
+
+.theme {
   margin-top: 2%;
   display: flex;
   gap: 4%;
-  button{
+
+  button {
     border: 0;
     outline: none;
     background-color: transparent !important;
-    color:#222 !important;
+    color: #222 !important;
 
-    
+
   }
 }
 
@@ -908,9 +925,10 @@ footer {
   display: flex;
   gap: 15%;
 
-  iframe{
+  iframe {
     border: 0;
   }
+
   .nav-content {
     display: flex;
     flex-direction: column;
@@ -1049,6 +1067,7 @@ footer {
   .modal-project-content {
     width: 300px !important;
     padding: 50px 10px !important;
+
     input {
       width: 100% !important;
     }
@@ -1111,13 +1130,15 @@ footer {
     }
   }
 }
+
 @media (max-width: 375px) {
-  .questions .question_content-1.open{
+  .questions .question_content-1.open {
     margin: 0 auto 300px;
   }
 }
+
 @media (max-width: 350px) {
-  .questions .question_content-1.open{
+  .questions .question_content-1.open {
     margin: 0 auto 350px;
   }
 }
