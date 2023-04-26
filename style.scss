@@ -1054,3 +1054,13 @@ footer {
     }
   }
 }
+@media (max-width: 375px) {
+  .questions .question_content-1.open{
+    margin: 0 auto 300px;
+  }
+}
+@media (max-width: 350px) {
+  .questions .question_content-1.open{
+    margin: 0 auto 350px;
+  }
+}
