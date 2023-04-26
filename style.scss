@@ -34,6 +34,7 @@ $text: #222;
 }
 
 .modal-project {
+  z-index: 9999;
   background-color: rgba($color: #fff, $alpha: 0.4);
   backdrop-filter: blur(25px);
   visibility: hidden;
