@@ -156,6 +156,9 @@ body.active .theme button {
 body.active footer .nav-content {
   list-style: none;
 }
+body.active .list li {
+  color: #fff;
+}
 
 .element-animation {
   opacity: 0;
